@@ -1,38 +1,38 @@
 {
-    "interactionModel": {
-        "languageModel": {
-            "invocationName": "chat",
-            "intents": [
-                {
-                    "name": "GptQueryIntent",
-                    "slots": [
-                        {
-                            "name": "query",
-                            "type": "AMAZON.Person"
-                        }
-                    ],
-                    "samples": [
-                        "{query}"
-                    ]
-                },
-                {
-                    "name": "AMAZON.CancelIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.HelpIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.StopIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.NavigateHomeIntent",
-                    "samples": []
-                }
-            ],
-            "types": []
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tu-nombre-invocacion",
+      "intents": [
+        {
+          "name": "GptQueryIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "{query}"
+          ]
+        },
+        {
+          "name": "ClearContextIntent",
+          "samples": [
+            "clear context",
+            "start over",
+            "new conversation"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
         }
+      ],
+      "types": []
     }
+  }
 }
