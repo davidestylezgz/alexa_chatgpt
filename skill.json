@@ -3,7 +3,7 @@
         "publishingInformation": {
             "locales": {
                 "en-US": {
-                    "name": "chat",
+                    "name": "oracle pi",
                     "summary": "ChatGPT in Alexa",
                     "description": "Alexa skill that uses the OpenAI API to generate responses from the ChatGPT model",
                     "examplePhrases": [
@@ -48,7 +48,7 @@
                     "keywords": []
                 },
                 "es-ES": {
-                    "name": "chat",
+                    "name": "oracle pi",
                     "summary": "ChatGPT en Alexa",
                     "description": "Skill de Alexa que utiliza la API de OpenAI para generar respuestas desde el modelo ChatGPT",
                     "examplePhrases": [
