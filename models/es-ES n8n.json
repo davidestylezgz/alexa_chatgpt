@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "chat",
+            "intents": [
+                {
+                    "name": "GptQueryIntent",
+                    "slots": [
+                        {
+                            "name": "query",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "{query}",
+                        "pregunta {query}",
+                        "dime {query}",
+                        "explícame {query}",
+                        "¿{query}?",
+                        "qué es {query}",
+                        "cómo {query}",
+                        "por qué {query}",
+                        "cuándo {query}",
+                        "dónde {query}"
+                    ]
+                },
+                {
+                    "name": "ClearContextIntent",
+                    "samples": [
+                        "limpiar conversación",
+                        "borrar historial",
+                        "empezar de nuevo",
+                        "nueva conversación",
+                        "reiniciar chat"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "ayuda",
+                        "qué puedes hacer",
+                        "cómo funciona"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
