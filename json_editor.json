@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "tu-nombre-invocacion",
+      "invocationName": "oracle pi",
       "intents": [
         {
           "name": "GptQueryIntent",
